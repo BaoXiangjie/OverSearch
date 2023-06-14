@@ -1,4 +1,4 @@
-package com.bxj.overSearch;
+package com.bxj.winOverSearch;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
@@ -7,7 +7,7 @@ import javafx.scene.control.Label;
  * @author BaoXiangjie
  * @date  2023/6/13 20:55
  */
-public class OverSearchController {
+public class WinOverSearchController {
     @FXML
     private Label welcomeText;
 

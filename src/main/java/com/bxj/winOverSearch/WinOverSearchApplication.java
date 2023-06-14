@@ -1,4 +1,4 @@
-package com.bxj.overSearch;
+package com.bxj.winOverSearch;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -11,10 +11,10 @@ import java.io.IOException;
  * @author BaoXiangjie
  * @date  2023/6/13 20:55
  */
-public class OverSearchApplication extends Application {
+public class WinOverSearchApplication extends Application {
 
     public void start(Stage stage) throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(OverSearchApplication.class.getResource("overSearch.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(WinOverSearchApplication.class.getResource("winOverSearch.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 320, 240);
         stage.setTitle("OverSearch");
         stage.setScene(scene);

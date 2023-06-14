@@ -4,7 +4,10 @@ module com.bxj.oversearch {
 
     requires org.controlsfx.controls;
     requires org.kordamp.bootstrapfx.core;
+    requires org.apache.lucene.core;
+    requires org.apache.lucene.queryparser;
+    requires org.apache.commons.io;
 
-    opens com.bxj.overSearch to javafx.fxml;
-    exports com.bxj.overSearch;
+    opens com.bxj.winOverSearch to javafx.fxml;
+    exports com.bxj.winOverSearch;
 }
