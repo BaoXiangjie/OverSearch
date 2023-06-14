@@ -51,7 +51,7 @@ public class OSDirectoryScan {
                 }
             }
         });
-        osFileUtils.printSearchStatistics(totalFiles, typeQuantity, urlList);
+        osFileUtils.printSearchStatistics(totalFiles, typeQuantity);
         return urlList;
     }
 }

@@ -58,7 +58,7 @@ public class OSFileUtils {
     /**
      * 输出文件统计
      */
-    public void printSearchStatistics(AtomicLong totalFiles, ConcurrentHashMap<String, Long> typeQuantity, Vector<String> urlList) {
+    public void printSearchStatistics(AtomicLong totalFiles, ConcurrentHashMap<String, Long> typeQuantity) {
 
         //设置表头
         String header = Stream.of("FileType", "Amount")
